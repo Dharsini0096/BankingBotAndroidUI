@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_alignParentLeft="true"
+        android:visibility="visible"
+        android:textColor="#050505"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:layout_margin="4dp"
+        android:backgroundTint="#9F9F9F"
+        android:background="@drawable/response_shape"
+        android:layout_alignParentStart="true"
+        android:id="@+id/bot_message"
+        android:text="@string/bot_str"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:visibility="visible"
+        android:textColor="#050505"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:backgroundTint="#E8E6E6"
+        android:background="@drawable/send_shape"
+        android:id="@+id/user_message"
+        android:text="@string/user_str"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

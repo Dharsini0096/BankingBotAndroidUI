@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Banking Bot</string>
+    <string name="login">login</string>
+    <string name="chat">selection</string>
+    <string name="Send">send</string>
+    <string name="type_message">msg</string>
+    <string name="user_str">user_str</string>
+    <string name="bot_str">bot_str</string>
+    <string name="select_bank">Select bank</string>
+
+    <string-array name="banks">
+
+    <item>Choose Bank</item>
+    <item>Indian Bank</item>
+    <item>State Bank</item>
+    <item>Canara Bank</item>
+    <item>DXC-LVB Bank</item>
+
+    </string-array>
+
+</resources>
+

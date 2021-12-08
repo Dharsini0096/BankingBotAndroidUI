@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/linear_layout"
+        android:background="#B4B4B5"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+    <EditText
+        android:layout_height="match_parent"
+        android:layout_width="290dp"
+        android:id="@+id/etChat"
+        android:background="@drawable/round_shape"
+        android:inputType="text"
+        android:padding="10dp"
+        android:hint="@string/type_message"
+        android:backgroundTint="#FCFDFD"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/btnSend"
+        android:background="@drawable/round_shape"
+        android:padding="10dp"
+        android:backgroundTint="#E91E63"
+        android:layout_margin="10dp"
+        android:text="@string/Send"/>
+
+</LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/rvChatList" android:layout_above="@+id/linear_layout"/>
+
+</RelativeLayout>
